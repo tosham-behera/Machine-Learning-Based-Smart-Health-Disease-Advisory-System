@@ -160,10 +160,10 @@ I clone the project from GitHub and move into the project folder:
 
 ```bash
 git clone https://github.com/tosham-behera/Machine-Learning-Based-Smart-Health-Disease-Advisory-System.git
-cd <project-folder>
+cd Machine-Learning-Based-Smart-Health-Disease-Advisory-System
 ```
 
-I replace `<your-repository-link>` with the URL of my GitHub repository and `<project-folder>` with the cloned folder name.
+After these commands, I am inside the project folder and can continue with the environment setup.
 
 ### Step 4: Create the environment and install packages
 
