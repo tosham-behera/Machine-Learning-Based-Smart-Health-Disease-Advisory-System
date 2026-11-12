@@ -15,5 +15,11 @@ models/*.joblib
 archive/**/models/*.joblib
 results/*.log
 
+# Historical and generated project artifacts not required to run the app
+archive/
+notebooks/
+report/
+results/
+
 # Notebook checkpoints
 .ipynb_checkpoints/
