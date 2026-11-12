@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local download caches and reproducible large artifacts
+.cache/
+models/*.joblib
+archive/**/models/*.joblib
+results/*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/

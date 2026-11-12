@@ -1,0 +1,337 @@
+{
+  "schema_version": "synthetic-multilabel-v2",
+  "model_name": "Logistic Regression",
+  "task": "synthetic_multilabel_classification",
+  "feature_names": [
+    "Age",
+    "Weight",
+    "Height",
+    "Systolic_BP",
+    "Diastolic_BP",
+    "Heart_Rate",
+    "Blood_Sugar_Fasting",
+    "Cholesterol_Total",
+    "Exercise_ST_Depression",
+    "Ejection_Fraction",
+    "LV_Wall_Thickness",
+    "Hypertension",
+    "Diabetes",
+    "Hyperlipidemia",
+    "Family_History",
+    "Previous_Heart_Attack",
+    "Exertional_Chest_Pain",
+    "Gender",
+    "Smoking",
+    "Alcohol_Intake",
+    "Physical_Activity",
+    "Diet",
+    "Stress_Level",
+    "ECG_Rhythm"
+  ],
+  "input_schema": {
+    "Age": {
+      "kind": "numeric",
+      "label": "Age (years)",
+      "min": 18,
+      "max": 90,
+      "default": 45.0,
+      "step": 1
+    },
+    "Weight": {
+      "kind": "numeric",
+      "label": "Weight (kg)",
+      "min": 40,
+      "max": 180,
+      "default": 70.0,
+      "step": 1
+    },
+    "Height": {
+      "kind": "numeric",
+      "label": "Height (cm)",
+      "min": 140,
+      "max": 205,
+      "default": 170.0,
+      "step": 1
+    },
+    "Systolic_BP": {
+      "kind": "numeric",
+      "label": "Systolic BP (mmHg)",
+      "min": 90,
+      "max": 179,
+      "default": 115.0,
+      "step": 1
+    },
+    "Diastolic_BP": {
+      "kind": "numeric",
+      "label": "Diastolic BP (mmHg)",
+      "min": 50,
+      "max": 119,
+      "default": 75.0,
+      "step": 1
+    },
+    "Heart_Rate": {
+      "kind": "numeric",
+      "label": "Heart Rate (beats/min)",
+      "min": 45,
+      "max": 140,
+      "default": 75.0,
+      "step": 1
+    },
+    "Blood_Sugar_Fasting": {
+      "kind": "numeric",
+      "label": "Blood Sugar Fasting (mg/dL)",
+      "min": 65,
+      "max": 250,
+      "default": 90.0,
+      "step": 1
+    },
+    "Cholesterol_Total": {
+      "kind": "numeric",
+      "label": "Cholesterol Total (mg/dL)",
+      "min": 100,
+      "max": 350,
+      "default": 180.0,
+      "step": 1
+    },
+    "Exercise_ST_Depression": {
+      "kind": "numeric",
+      "label": "Exercise ST Depression (mm)",
+      "min": 0,
+      "max": 5,
+      "default": 0.0,
+      "step": 0.1
+    },
+    "Ejection_Fraction": {
+      "kind": "numeric",
+      "label": "Ejection Fraction (%)",
+      "min": 20,
+      "max": 75,
+      "default": 60.0,
+      "step": 1
+    },
+    "LV_Wall_Thickness": {
+      "kind": "numeric",
+      "label": "LV Wall Thickness (mm)",
+      "min": 6,
+      "max": 20,
+      "default": 9.0,
+      "step": 0.1
+    },
+    "Hypertension": {
+      "kind": "binary",
+      "label": "Hypertension",
+      "default": 0
+    },
+    "Diabetes": {
+      "kind": "binary",
+      "label": "Diabetes",
+      "default": 0
+    },
+    "Hyperlipidemia": {
+      "kind": "binary",
+      "label": "Hyperlipidemia",
+      "default": 0
+    },
+    "Family_History": {
+      "kind": "binary",
+      "label": "Family History",
+      "default": 0
+    },
+    "Previous_Heart_Attack": {
+      "kind": "binary",
+      "label": "Previous Heart Attack",
+      "default": 0
+    },
+    "Exertional_Chest_Pain": {
+      "kind": "binary",
+      "label": "Exertional Chest Pain",
+      "default": 0
+    },
+    "Gender": {
+      "kind": "categorical",
+      "label": "Gender",
+      "categories": [
+        "Female",
+        "Male",
+        "Unknown"
+      ],
+      "default": "Female"
+    },
+    "Smoking": {
+      "kind": "categorical",
+      "label": "Smoking",
+      "categories": [
+        "Never",
+        "Former",
+        "Current",
+        "Unknown"
+      ],
+      "default": "Never"
+    },
+    "Alcohol_Intake": {
+      "kind": "categorical",
+      "label": "Alcohol Intake",
+      "categories": [
+        "None",
+        "Low",
+        "Moderate",
+        "High",
+        "Unknown"
+      ],
+      "default": "None"
+    },
+    "Physical_Activity": {
+      "kind": "categorical",
+      "label": "Physical Activity",
+      "categories": [
+        "Active",
+        "Moderate",
+        "Sedentary",
+        "Unknown"
+      ],
+      "default": "Active"
+    },
+    "Diet": {
+      "kind": "categorical",
+      "label": "Diet",
+      "categories": [
+        "Healthy",
+        "Average",
+        "Unhealthy",
+        "Unknown"
+      ],
+      "default": "Healthy"
+    },
+    "Stress_Level": {
+      "kind": "categorical",
+      "label": "Stress Level",
+      "categories": [
+        "Low",
+        "Medium",
+        "High",
+        "Unknown"
+      ],
+      "default": "Low"
+    },
+    "ECG_Rhythm": {
+      "kind": "categorical",
+      "label": "ECG Rhythm",
+      "categories": [
+        "Regular",
+        "Irregular",
+        "Unknown"
+      ],
+      "default": "Unknown"
+    }
+  },
+  "target_columns": [
+    "CAD",
+    "Hypertensive_Heart_Disease",
+    "Heart_Failure",
+    "Arrhythmia",
+    "Cardiomyopathy"
+  ],
+  "target_names": {
+    "CAD": "Coronary artery disease",
+    "Hypertensive_Heart_Disease": "Hypertensive heart disease",
+    "Heart_Failure": "Heart failure",
+    "Arrhythmia": "Heart arrhythmia",
+    "Cardiomyopathy": "Cardiomyopathy"
+  },
+  "thresholds": {
+    "CAD": 0.5,
+    "Hypertensive_Heart_Disease": 0.5,
+    "Heart_Failure": 0.5,
+    "Arrhythmia": 0.5,
+    "Cardiomyopathy": 0.5
+  },
+  "selection_rule": "Validation macro F1, then macro average precision; stable model order breaks exact ties.",
+  "split_method": "Disjoint seeded random split 64% fit / 16% validation / 20% test; not stratified. Every target has both classes in each split.",
+  "split_sizes": {
+    "inner_train": 12800,
+    "validation": 3200,
+    "train": 16000,
+    "test": 4000
+  },
+  "split_positive_counts": {
+    "inner_train": {
+      "CAD": 4174,
+      "Hypertensive_Heart_Disease": 4129,
+      "Heart_Failure": 3218,
+      "Arrhythmia": 2669,
+      "Cardiomyopathy": 3372
+    },
+    "validation": {
+      "CAD": 1047,
+      "Hypertensive_Heart_Disease": 1047,
+      "Heart_Failure": 772,
+      "Arrhythmia": 636,
+      "Cardiomyopathy": 817
+    },
+    "train": {
+      "CAD": 5221,
+      "Hypertensive_Heart_Disease": 5176,
+      "Heart_Failure": 3990,
+      "Arrhythmia": 3305,
+      "Cardiomyopathy": 4189
+    },
+    "test": {
+      "CAD": 1291,
+      "Hypertensive_Heart_Disease": 1284,
+      "Heart_Failure": 942,
+      "Arrhythmia": 828,
+      "Cardiomyopathy": 1004
+    }
+  },
+  "validation_scores": {
+    "Logistic Regression": {
+      "subset_accuracy": 0.436875,
+      "hamming_loss": 0.159,
+      "macro_precision": 0.7389759496849351,
+      "macro_recall": 0.6283542581838384,
+      "macro_f1": 0.678930548309295,
+      "micro_f1": 0.6812828864946129,
+      "macro_roc_auc": 0.8552258487994173,
+      "macro_average_precision": 0.7318058742438585
+    },
+    "Random Forest": {
+      "subset_accuracy": 0.43125,
+      "hamming_loss": 0.16275,
+      "macro_precision": 0.7458808991200601,
+      "macro_recall": 0.5955536765663407,
+      "macro_f1": 0.6612782672716805,
+      "micro_f1": 0.6638264910921766,
+      "macro_roc_auc": 0.8507801331190417,
+      "macro_average_precision": 0.713625888377958
+    },
+    "XGBoost": {
+      "subset_accuracy": 0.43625,
+      "hamming_loss": 0.1606875,
+      "macro_precision": 0.7397609532928627,
+      "macro_recall": 0.6180592809715254,
+      "macro_f1": 0.6731105330098707,
+      "micro_f1": 0.6752557787040546,
+      "macro_roc_auc": 0.8589475603917867,
+      "macro_average_precision": 0.7291243648063507
+    }
+  },
+  "random_state": 42,
+  "source_file": "synthetic_heart_conditions.csv",
+  "source_sha256": "d5c9883e22513c424e25358f63e132737df0aa5463619511643fea945ce75efb",
+  "model_sha256": "de6454edc529b12daf57e1035a5c3d5f3cccd6b28540de46d52d1d14eddd4fc6",
+  "created_utc": "2026-10-23T03:20:34.677869+00:00",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0"
+  },
+  "limitations": [
+    "All labels and feature distributions are fictional generator assumptions.",
+    "Evaluation measures agreement with the same synthetic process, not clinical accuracy.",
+    "Scores are not personal disease probabilities, diagnoses, severity or future-event risk.",
+    "Missing-input imputation can substantially change results; clinical inputs must not be guessed.",
+    "Age 18-90 and other ranges are generator limits, not evidence of validation across populations."
+  ]
+}

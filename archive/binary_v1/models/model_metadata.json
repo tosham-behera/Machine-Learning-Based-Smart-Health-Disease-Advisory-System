@@ -1,0 +1,254 @@
+{
+  "model_name": "Random Forest",
+  "feature_names": [
+    "Age",
+    "Gender",
+    "Weight",
+    "Height",
+    "Smoking",
+    "Alcohol_Intake",
+    "Physical_Activity",
+    "Diet",
+    "Stress_Level",
+    "Hypertension",
+    "Diabetes",
+    "Hyperlipidemia",
+    "Family_History",
+    "Previous_Heart_Attack",
+    "Systolic_BP",
+    "Diastolic_BP",
+    "Heart_Rate",
+    "Blood_Sugar_Fasting",
+    "Cholesterol_Total"
+  ],
+  "input_schema": {
+    "Age": {
+      "kind": "numeric",
+      "label": "Age (years)",
+      "min": 30.0,
+      "max": 79.0,
+      "default": 54.0,
+      "step": 1.0
+    },
+    "Gender": {
+      "kind": "categorical",
+      "label": "Gender",
+      "categories": [
+        "Female",
+        "Male",
+        "Unknown"
+      ],
+      "default": "Female"
+    },
+    "Weight": {
+      "kind": "numeric",
+      "label": "Weight (kg (assumed))",
+      "min": 50.0,
+      "max": 119.0,
+      "default": 85.0,
+      "step": 1.0
+    },
+    "Height": {
+      "kind": "numeric",
+      "label": "Height (cm (assumed))",
+      "min": 150.0,
+      "max": 199.0,
+      "default": 174.0,
+      "step": 1.0
+    },
+    "Smoking": {
+      "kind": "categorical",
+      "label": "Smoking",
+      "categories": [
+        "Current",
+        "Former",
+        "Never",
+        "Unknown"
+      ],
+      "default": "Never"
+    },
+    "Alcohol_Intake": {
+      "kind": "categorical",
+      "label": "Alcohol Intake",
+      "categories": [
+        "High",
+        "Low",
+        "Moderate",
+        "Unknown"
+      ],
+      "default": "Unknown"
+    },
+    "Physical_Activity": {
+      "kind": "categorical",
+      "label": "Physical Activity",
+      "categories": [
+        "Active",
+        "Moderate",
+        "Sedentary",
+        "Unknown"
+      ],
+      "default": "Moderate"
+    },
+    "Diet": {
+      "kind": "categorical",
+      "label": "Diet",
+      "categories": [
+        "Average",
+        "Healthy",
+        "Unhealthy",
+        "Unknown"
+      ],
+      "default": "Average"
+    },
+    "Stress_Level": {
+      "kind": "categorical",
+      "label": "Stress Level",
+      "categories": [
+        "High",
+        "Low",
+        "Medium",
+        "Unknown"
+      ],
+      "default": "Medium"
+    },
+    "Hypertension": {
+      "kind": "binary",
+      "label": "Hypertension",
+      "min": 0,
+      "max": 1,
+      "default": 0
+    },
+    "Diabetes": {
+      "kind": "binary",
+      "label": "Diabetes",
+      "min": 0,
+      "max": 1,
+      "default": 0
+    },
+    "Hyperlipidemia": {
+      "kind": "binary",
+      "label": "Hyperlipidemia",
+      "min": 0,
+      "max": 1,
+      "default": 0
+    },
+    "Family_History": {
+      "kind": "binary",
+      "label": "Family History",
+      "min": 0,
+      "max": 1,
+      "default": 0
+    },
+    "Previous_Heart_Attack": {
+      "kind": "binary",
+      "label": "Previous Heart Attack",
+      "min": 0,
+      "max": 1,
+      "default": 0
+    },
+    "Systolic_BP": {
+      "kind": "numeric",
+      "label": "Systolic BP (mmHg (assumed))",
+      "min": 100.0,
+      "max": 179.0,
+      "default": 141.0,
+      "step": 1.0
+    },
+    "Diastolic_BP": {
+      "kind": "numeric",
+      "label": "Diastolic BP (mmHg (assumed))",
+      "min": 60.0,
+      "max": 119.0,
+      "default": 88.0,
+      "step": 1.0
+    },
+    "Heart_Rate": {
+      "kind": "numeric",
+      "label": "Heart Rate (beats/min (assumed))",
+      "min": 60.0,
+      "max": 109.0,
+      "default": 85.0,
+      "step": 1.0
+    },
+    "Blood_Sugar_Fasting": {
+      "kind": "numeric",
+      "label": "Blood Sugar Fasting (mg/dL (assumed))",
+      "min": 70.0,
+      "max": 179.0,
+      "default": 125.0,
+      "step": 1.0
+    },
+    "Cholesterol_Total": {
+      "kind": "numeric",
+      "label": "Cholesterol Total (mg/dL (assumed))",
+      "min": 150.0,
+      "max": 299.0,
+      "default": 225.0,
+      "step": 1.0
+    }
+  },
+  "threshold": 0.5,
+  "target": "Heart_Disease",
+  "classes": [
+    0,
+    1
+  ],
+  "random_state": 42,
+  "selection_rule": "Validation recall, then F1, precision, ROC-AUC, smaller F1 gap; exact ties prefer Logistic Regression, Random Forest, then XGBoost.",
+  "selection_reason": "Random Forest ranked first by the predeclared validation rule. Test scores did not determine selection.",
+  "validation_scores": {
+    "Logistic Regression": {
+      "accuracy": 0.92375,
+      "precision": 0.9143927233814875,
+      "recall": 0.9217907227615966,
+      "f1": 0.9180768197690035,
+      "roc_auc": 0.9826264161717794,
+      "f1_gap": 0.0018314927773458445
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "f1_gap": 0.0
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "f1_gap": 0.0
+    }
+  },
+  "split_sizes": {
+    "train": 40000,
+    "test": 10000,
+    "inner_train": 32000,
+    "validation": 8000
+  },
+  "source_file": "synthetic_heart_disease_dataset.csv",
+  "source_sha256": "4981fc17fdb431a5375e6ffa83e891972b14c4b18c2f8cbac9c39df7d65fca7a",
+  "model_sha256": "b52c8ffef719388829a3993fcf1e73ed7383f3528c82057323ca94893eb3c6e4",
+  "created_utc": "2026-10-21T11:51:38.183420+00:00",
+  "python_version": "3.13.11",
+  "package_versions": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "streamlit": "1.66.0"
+  },
+  "limitations": [
+    "Educational synthetic-data classifier; not a medical diagnosis or validated risk score.",
+    "Labels exactly match an observed five-feature rule in the supplied dataset.",
+    "Original generator, precise Kaggle source, units and temporal definitions are unverified.",
+    "Previous_Heart_Attack assumes prior history; proxy or target-definition leakage cannot be excluded.",
+    "Test split has already been explored in the historical notebook; it is not an external blind test.",
+    "BMI excluded. Invalid historical BP pairs are imputed using training medians.",
+    "Missing numeric values and Unknown categories have not been clinically validated."
+  ]
+}

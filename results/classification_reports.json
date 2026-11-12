@@ -1,0 +1,1368 @@
+{
+  "Logistic Regression": {
+    "inner_train": {
+      "CAD": {
+        "precision": 0.7306122448979592,
+        "recall": 0.5574988021082894,
+        "f1": 0.6324228835439598,
+        "roc_auc": 0.8317137955908475,
+        "average_precision": 0.7345341770043817,
+        "positive_support": 4174,
+        "brier_score": 0.14816963088167384,
+        "confusion_matrix": [
+          [
+            7768,
+            858
+          ],
+          [
+            1847,
+            2327
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8031232571109872,
+        "recall": 0.6975054492613224,
+        "f1": 0.7465975372650681,
+        "roc_auc": 0.8997718012279514,
+        "average_precision": 0.8382182680587629,
+        "positive_support": 4129,
+        "brier_score": 0.11142668533508057,
+        "confusion_matrix": [
+          [
+            7965,
+            706
+          ],
+          [
+            1249,
+            2880
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7295860235472844,
+        "recall": 0.5969546302050963,
+        "f1": 0.6566398906169886,
+        "roc_auc": 0.8695167121800652,
+        "average_precision": 0.7355646867324787,
+        "positive_support": 3218,
+        "brier_score": 0.11465884436576906,
+        "confusion_matrix": [
+          [
+            8870,
+            712
+          ],
+          [
+            1297,
+            1921
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7406573615488519,
+        "recall": 0.616335706257025,
+        "f1": 0.6728016359918201,
+        "roc_auc": 0.8064629487102251,
+        "average_precision": 0.6258367369747174,
+        "positive_support": 2669,
+        "brier_score": 0.10478432835084908,
+        "confusion_matrix": [
+          [
+            9555,
+            576
+          ],
+          [
+            1024,
+            1645
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.752528901734104,
+        "recall": 0.6177342823250297,
+        "f1": 0.6785016286644951,
+        "roc_auc": 0.8851661414901526,
+        "average_precision": 0.7700158489734288,
+        "positive_support": 3372,
+        "brier_score": 0.11132233206961098,
+        "confusion_matrix": [
+          [
+            8743,
+            685
+          ],
+          [
+            1289,
+            2083
+          ]
+        ]
+      }
+    },
+    "validation": {
+      "CAD": {
+        "precision": 0.7136150234741784,
+        "recall": 0.5807067812798472,
+        "f1": 0.640337019483939,
+        "roc_auc": 0.8259730431006067,
+        "average_precision": 0.7349846393699135,
+        "positive_support": 1047,
+        "brier_score": 0.150444181812151,
+        "confusion_matrix": [
+          [
+            1909,
+            244
+          ],
+          [
+            439,
+            608
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.7948164146868251,
+        "recall": 0.7029608404966571,
+        "f1": 0.7460719716168271,
+        "roc_auc": 0.9018264202101774,
+        "average_precision": 0.8314534253608131,
+        "positive_support": 1047,
+        "brier_score": 0.1134761764941868,
+        "confusion_matrix": [
+          [
+            1963,
+            190
+          ],
+          [
+            311,
+            736
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7543035993740219,
+        "recall": 0.6243523316062176,
+        "f1": 0.6832034018426648,
+        "roc_auc": 0.8738796510486466,
+        "average_precision": 0.743676199199371,
+        "positive_support": 772,
+        "brier_score": 0.10805404176079997,
+        "confusion_matrix": [
+          [
+            2271,
+            157
+          ],
+          [
+            290,
+            482
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7087719298245614,
+        "recall": 0.6352201257861635,
+        "f1": 0.6699834162520729,
+        "roc_auc": 0.8001795543519854,
+        "average_precision": 0.6077089860593884,
+        "positive_support": 636,
+        "brier_score": 0.1026246711497727,
+        "confusion_matrix": [
+          [
+            2398,
+            166
+          ],
+          [
+            232,
+            404
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7233727810650887,
+        "recall": 0.598531211750306,
+        "f1": 0.6550569323509712,
+        "roc_auc": 0.8742705752856704,
+        "average_precision": 0.7412061212298059,
+        "positive_support": 817,
+        "brier_score": 0.11533404527172056,
+        "confusion_matrix": [
+          [
+            2196,
+            187
+          ],
+          [
+            328,
+            489
+          ]
+        ]
+      }
+    },
+    "train": {
+      "CAD": {
+        "precision": 0.7287247317194909,
+        "recall": 0.5592798314499138,
+        "f1": 0.6328565236237538,
+        "roc_auc": 0.8307207902943359,
+        "average_precision": 0.7345955027175672,
+        "positive_support": 5221,
+        "brier_score": 0.14849648113507885,
+        "confusion_matrix": [
+          [
+            9692,
+            1087
+          ],
+          [
+            2301,
+            2920
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8033222591362126,
+        "recall": 0.7007341576506955,
+        "f1": 0.7485295635125374,
+        "roc_auc": 0.9003122426150143,
+        "average_precision": 0.8373113217082454,
+        "positive_support": 5176,
+        "brier_score": 0.11166481931198158,
+        "confusion_matrix": [
+          [
+            9936,
+            888
+          ],
+          [
+            1549,
+            3627
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7338262476894639,
+        "recall": 0.5969924812030075,
+        "f1": 0.6583747927031509,
+        "roc_auc": 0.8705172590093051,
+        "average_precision": 0.7374295580968181,
+        "positive_support": 3990,
+        "brier_score": 0.11328261030202502,
+        "confusion_matrix": [
+          [
+            11146,
+            864
+          ],
+          [
+            1608,
+            2382
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7341454675743461,
+        "recall": 0.6199697428139183,
+        "f1": 0.672244094488189,
+        "roc_auc": 0.8068226081599067,
+        "average_precision": 0.6227698605908629,
+        "positive_support": 3305,
+        "brier_score": 0.1043197720468573,
+        "confusion_matrix": [
+          [
+            11953,
+            742
+          ],
+          [
+            1256,
+            2049
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7474571345539087,
+        "recall": 0.6139890188589162,
+        "f1": 0.674180865006553,
+        "roc_auc": 0.8831540059833521,
+        "average_precision": 0.7643240993595115,
+        "positive_support": 4189,
+        "brier_score": 0.11204229788915021,
+        "confusion_matrix": [
+          [
+            10942,
+            869
+          ],
+          [
+            1617,
+            2572
+          ]
+        ]
+      }
+    },
+    "test": {
+      "CAD": {
+        "precision": 0.7232960325534079,
+        "recall": 0.5507358636715725,
+        "f1": 0.6253298153034301,
+        "roc_auc": 0.8303557668030854,
+        "average_precision": 0.7266789964229001,
+        "positive_support": 1291,
+        "brier_score": 0.14849726782031467,
+        "confusion_matrix": [
+          [
+            2437,
+            272
+          ],
+          [
+            580,
+            711
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8100558659217877,
+        "recall": 0.677570093457944,
+        "f1": 0.7379134860050891,
+        "roc_auc": 0.900341922104616,
+        "average_precision": 0.8374976798930529,
+        "positive_support": 1284,
+        "brier_score": 0.11226421433242818,
+        "confusion_matrix": [
+          [
+            2512,
+            204
+          ],
+          [
+            414,
+            870
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7315789473684211,
+        "recall": 0.5902335456475584,
+        "f1": 0.6533490011750881,
+        "roc_auc": 0.8758874776264686,
+        "average_precision": 0.7373635102928411,
+        "positive_support": 942,
+        "brier_score": 0.10786853830137969,
+        "confusion_matrix": [
+          [
+            2854,
+            204
+          ],
+          [
+            386,
+            556
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7343065693430657,
+        "recall": 0.607487922705314,
+        "f1": 0.6649041639127561,
+        "roc_auc": 0.7908598637839549,
+        "average_precision": 0.6143916289974314,
+        "positive_support": 828,
+        "brier_score": 0.10634394967087218,
+        "confusion_matrix": [
+          [
+            2990,
+            182
+          ],
+          [
+            325,
+            503
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7316770186335404,
+        "recall": 0.5866533864541833,
+        "f1": 0.6511885019347706,
+        "roc_auc": 0.8760206171309421,
+        "average_precision": 0.7377439000268515,
+        "positive_support": 1004,
+        "brier_score": 0.11279868046251905,
+        "confusion_matrix": [
+          [
+            2780,
+            216
+          ],
+          [
+            415,
+            589
+          ]
+        ]
+      }
+    },
+    "test_missing_clinical_fields": {
+      "CAD": {
+        "precision": 0.6516393442622951,
+        "recall": 0.24632068164213788,
+        "f1": 0.357504215851602,
+        "roc_auc": 0.7012971936503362,
+        "average_precision": 0.5408326734975426,
+        "positive_support": 1291,
+        "brier_score": 0.19459507517668156,
+        "confusion_matrix": [
+          [
+            2539,
+            170
+          ],
+          [
+            973,
+            318
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.7914494264859229,
+        "recall": 0.5911214953271028,
+        "f1": 0.6767721801159162,
+        "roc_auc": 0.8508065163631692,
+        "average_precision": 0.7692357645016041,
+        "positive_support": 1284,
+        "brier_score": 0.13626840861082945,
+        "confusion_matrix": [
+          [
+            2516,
+            200
+          ],
+          [
+            525,
+            759
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5962197236999052,
+        "average_precision": 0.3135143626669098,
+        "positive_support": 942,
+        "brier_score": 0.18321701041343547,
+        "confusion_matrix": [
+          [
+            3058,
+            0
+          ],
+          [
+            942,
+            0
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.2534246575342466,
+        "recall": 0.04468599033816425,
+        "f1": 0.07597535934291581,
+        "roc_auc": 0.5264999908620721,
+        "average_precision": 0.23191177207748176,
+        "positive_support": 828,
+        "brier_score": 0.1919596748790769,
+        "confusion_matrix": [
+          [
+            3063,
+            109
+          ],
+          [
+            791,
+            37
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5537748871004633,
+        "average_precision": 0.302141469849807,
+        "positive_support": 1004,
+        "brier_score": 0.19525594447172676,
+        "confusion_matrix": [
+          [
+            2996,
+            0
+          ],
+          [
+            1004,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "Random Forest": {
+    "inner_train": {
+      "CAD": {
+        "precision": 0.9072233267064281,
+        "recall": 0.655965500718735,
+        "f1": 0.7614015572858732,
+        "roc_auc": 0.9446823995517946,
+        "average_precision": 0.9076440124100655,
+        "positive_support": 4174,
+        "brier_score": 0.1046161041650964,
+        "confusion_matrix": [
+          [
+            8346,
+            280
+          ],
+          [
+            1436,
+            2738
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8908095649668684,
+        "recall": 0.748849600387503,
+        "f1": 0.8136842105263158,
+        "roc_auc": 0.961054878786737,
+        "average_precision": 0.9318310965952742,
+        "positive_support": 4129,
+        "brier_score": 0.07905090524852737,
+        "confusion_matrix": [
+          [
+            8292,
+            379
+          ],
+          [
+            1037,
+            3092
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.8791700569568756,
+        "recall": 0.6715351149782474,
+        "f1": 0.7614517265680056,
+        "roc_auc": 0.9540651306656788,
+        "average_precision": 0.8949174173680778,
+        "positive_support": 3218,
+        "brier_score": 0.08339515344777251,
+        "confusion_matrix": [
+          [
+            9285,
+            297
+          ],
+          [
+            1057,
+            2161
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7549334557136301,
+        "recall": 0.616335706257025,
+        "f1": 0.6786303630363036,
+        "roc_auc": 0.9641189366470462,
+        "average_precision": 0.892341610659672,
+        "positive_support": 2669,
+        "brier_score": 0.07954673145574559,
+        "confusion_matrix": [
+          [
+            9597,
+            534
+          ],
+          [
+            1024,
+            1645
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.886095238095238,
+        "recall": 0.6897983392645315,
+        "f1": 0.7757211939302985,
+        "roc_auc": 0.9586364359262005,
+        "average_precision": 0.9097087147278472,
+        "positive_support": 3372,
+        "brier_score": 0.07979031398675096,
+        "confusion_matrix": [
+          [
+            9129,
+            299
+          ],
+          [
+            1046,
+            2326
+          ]
+        ]
+      }
+    },
+    "validation": {
+      "CAD": {
+        "precision": 0.7258485639686684,
+        "recall": 0.5310410697230181,
+        "f1": 0.6133480419194705,
+        "roc_auc": 0.8210932436514918,
+        "average_precision": 0.7171456619822894,
+        "positive_support": 1047,
+        "brier_score": 0.15452825562677888,
+        "confusion_matrix": [
+          [
+            1943,
+            210
+          ],
+          [
+            491,
+            556
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8053993250843644,
+        "recall": 0.6838586437440306,
+        "f1": 0.7396694214876033,
+        "roc_auc": 0.8939277993745872,
+        "average_precision": 0.8221537095138268,
+        "positive_support": 1047,
+        "brier_score": 0.11668490541786096,
+        "confusion_matrix": [
+          [
+            1980,
+            173
+          ],
+          [
+            331,
+            716
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7567114093959731,
+        "recall": 0.5841968911917098,
+        "f1": 0.6593567251461988,
+        "roc_auc": 0.8594079435941648,
+        "average_precision": 0.7107099388696005,
+        "positive_support": 772,
+        "brier_score": 0.1138866217153269,
+        "confusion_matrix": [
+          [
+            2283,
+            145
+          ],
+          [
+            321,
+            451
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7087719298245614,
+        "recall": 0.6352201257861635,
+        "f1": 0.6699834162520729,
+        "roc_auc": 0.8195166014187738,
+        "average_precision": 0.6059473751438506,
+        "positive_support": 636,
+        "brier_score": 0.10206354236470118,
+        "confusion_matrix": [
+          [
+            2398,
+            166
+          ],
+          [
+            232,
+            404
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7326732673267327,
+        "recall": 0.543451652386781,
+        "f1": 0.624033731553057,
+        "roc_auc": 0.8599550775561903,
+        "average_precision": 0.7121727563802226,
+        "positive_support": 817,
+        "brier_score": 0.12004008772710435,
+        "confusion_matrix": [
+          [
+            2221,
+            162
+          ],
+          [
+            373,
+            444
+          ]
+        ]
+      }
+    },
+    "train": {
+      "CAD": {
+        "precision": 0.8874706954936181,
+        "recall": 0.6525569814211837,
+        "f1": 0.7520971302428257,
+        "roc_auc": 0.9381004112165648,
+        "average_precision": 0.8978924767941117,
+        "positive_support": 5221,
+        "brier_score": 0.10671767761543384,
+        "confusion_matrix": [
+          [
+            10347,
+            432
+          ],
+          [
+            1814,
+            3407
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8864939234120615,
+        "recall": 0.7469088098918083,
+        "f1": 0.8107371290762294,
+        "roc_auc": 0.9584508522477385,
+        "average_precision": 0.9278832238400528,
+        "positive_support": 5176,
+        "brier_score": 0.08085819566727087,
+        "confusion_matrix": [
+          [
+            10329,
+            495
+          ],
+          [
+            1310,
+            3866
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.862364175172868,
+        "recall": 0.656390977443609,
+        "f1": 0.7454105592713818,
+        "roc_auc": 0.9498320322037399,
+        "average_precision": 0.8857205265100542,
+        "positive_support": 3990,
+        "brier_score": 0.08494752445823477,
+        "confusion_matrix": [
+          [
+            11592,
+            418
+          ],
+          [
+            1371,
+            2619
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7455470737913485,
+        "recall": 0.6205748865355522,
+        "f1": 0.6773447820343461,
+        "roc_auc": 0.960297638235359,
+        "average_precision": 0.8858661690780382,
+        "positive_support": 3305,
+        "brier_score": 0.08061518853471768,
+        "confusion_matrix": [
+          [
+            11995,
+            700
+          ],
+          [
+            1254,
+            2051
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.8829885767212102,
+        "recall": 0.6827405108617809,
+        "f1": 0.7700592353257943,
+        "roc_auc": 0.9551195634578744,
+        "average_precision": 0.902745550826012,
+        "positive_support": 4189,
+        "brier_score": 0.08199163416620028,
+        "confusion_matrix": [
+          [
+            11432,
+            379
+          ],
+          [
+            1329,
+            2860
+          ]
+        ]
+      }
+    },
+    "test": {
+      "CAD": {
+        "precision": 0.7477777777777778,
+        "recall": 0.5213013168086754,
+        "f1": 0.6143313555454131,
+        "roc_auc": 0.8229678219230216,
+        "average_precision": 0.7222837521290348,
+        "positive_support": 1291,
+        "brier_score": 0.15205152802611752,
+        "confusion_matrix": [
+          [
+            2482,
+            227
+          ],
+          [
+            618,
+            673
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8165680473372781,
+        "recall": 0.6448598130841121,
+        "f1": 0.720626631853786,
+        "roc_auc": 0.8932749393234508,
+        "average_precision": 0.8213331410598635,
+        "positive_support": 1284,
+        "brier_score": 0.11585234611605653,
+        "confusion_matrix": [
+          [
+            2530,
+            186
+          ],
+          [
+            456,
+            828
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7440890125173852,
+        "recall": 0.5679405520169851,
+        "f1": 0.6441902468392534,
+        "roc_auc": 0.8567281669742376,
+        "average_precision": 0.7101019466759654,
+        "positive_support": 942,
+        "brier_score": 0.11363972387509827,
+        "confusion_matrix": [
+          [
+            2874,
+            184
+          ],
+          [
+            407,
+            535
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7343065693430657,
+        "recall": 0.607487922705314,
+        "f1": 0.6649041639127561,
+        "roc_auc": 0.795640142307997,
+        "average_precision": 0.6154405034745922,
+        "positive_support": 828,
+        "brier_score": 0.10640289067610775,
+        "confusion_matrix": [
+          [
+            2990,
+            182
+          ],
+          [
+            325,
+            503
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7456953642384105,
+        "recall": 0.5607569721115537,
+        "f1": 0.6401364411597499,
+        "roc_auc": 0.8644776700939898,
+        "average_precision": 0.7250751547377131,
+        "positive_support": 1004,
+        "brier_score": 0.11696660841075712,
+        "confusion_matrix": [
+          [
+            2804,
+            192
+          ],
+          [
+            441,
+            563
+          ]
+        ]
+      }
+    }
+  },
+  "XGBoost": {
+    "inner_train": {
+      "CAD": {
+        "precision": 0.74912,
+        "recall": 0.5608528988979397,
+        "f1": 0.6414577339361557,
+        "roc_auc": 0.8444252930515838,
+        "average_precision": 0.756945679119184,
+        "positive_support": 4174,
+        "brier_score": 0.1431118671545197,
+        "confusion_matrix": [
+          [
+            7842,
+            784
+          ],
+          [
+            1833,
+            2341
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8177942012507107,
+        "recall": 0.6967788810850085,
+        "f1": 0.7524519419380149,
+        "roc_auc": 0.9069164301914844,
+        "average_precision": 0.8523015770845603,
+        "positive_support": 4129,
+        "brier_score": 0.10807578047671008,
+        "confusion_matrix": [
+          [
+            8030,
+            641
+          ],
+          [
+            1252,
+            2877
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7541247484909457,
+        "recall": 0.5823492852703542,
+        "f1": 0.6571979659828161,
+        "roc_auc": 0.8806391665074313,
+        "average_precision": 0.7571531109132819,
+        "positive_support": 3218,
+        "brier_score": 0.1105854429279701,
+        "confusion_matrix": [
+          [
+            8971,
+            611
+          ],
+          [
+            1344,
+            1874
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7421242124212422,
+        "recall": 0.6178343949044586,
+        "f1": 0.6742997342056839,
+        "roc_auc": 0.8562660914223005,
+        "average_precision": 0.7216374501243906,
+        "positive_support": 2669,
+        "brier_score": 0.09927427161168106,
+        "confusion_matrix": [
+          [
+            9558,
+            573
+          ],
+          [
+            1020,
+            1649
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7616839100963254,
+        "recall": 0.6331553973902728,
+        "f1": 0.691497975708502,
+        "roc_auc": 0.8948621373904038,
+        "average_precision": 0.7889000888779025,
+        "positive_support": 3372,
+        "brier_score": 0.10716489015701938,
+        "confusion_matrix": [
+          [
+            8760,
+            668
+          ],
+          [
+            1237,
+            2135
+          ]
+        ]
+      }
+    },
+    "validation": {
+      "CAD": {
+        "precision": 0.7125890736342043,
+        "recall": 0.5730659025787965,
+        "f1": 0.6352567496029645,
+        "roc_auc": 0.823046494285533,
+        "average_precision": 0.7232336275959464,
+        "positive_support": 1047,
+        "brier_score": 0.15173882376617698,
+        "confusion_matrix": [
+          [
+            1911,
+            242
+          ],
+          [
+            447,
+            600
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8028953229398663,
+        "recall": 0.6886341929321872,
+        "f1": 0.741388174807198,
+        "roc_auc": 0.9003427393685804,
+        "average_precision": 0.8270644975020651,
+        "positive_support": 1047,
+        "brier_score": 0.11405196160385225,
+        "confusion_matrix": [
+          [
+            1976,
+            177
+          ],
+          [
+            326,
+            721
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7602627257799671,
+        "recall": 0.5997409326424871,
+        "f1": 0.6705286024619841,
+        "roc_auc": 0.8711734748316274,
+        "average_precision": 0.7363227948132268,
+        "positive_support": 772,
+        "brier_score": 0.10962351567605061,
+        "confusion_matrix": [
+          [
+            2282,
+            146
+          ],
+          [
+            309,
+            463
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7087719298245614,
+        "recall": 0.6352201257861635,
+        "f1": 0.6699834162520729,
+        "roc_auc": 0.8303376946398611,
+        "average_precision": 0.6270955437947082,
+        "positive_support": 636,
+        "brier_score": 0.10137014080223564,
+        "confusion_matrix": [
+          [
+            2398,
+            166
+          ],
+          [
+            232,
+            404
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7142857142857143,
+        "recall": 0.5936352509179926,
+        "f1": 0.6483957219251337,
+        "roc_auc": 0.8698373988333313,
+        "average_precision": 0.7319053603258068,
+        "positive_support": 817,
+        "brier_score": 0.11656270025417267,
+        "confusion_matrix": [
+          [
+            2189,
+            194
+          ],
+          [
+            332,
+            485
+          ]
+        ]
+      }
+    },
+    "train": {
+      "CAD": {
+        "precision": 0.7473738150140917,
+        "recall": 0.5587052288833557,
+        "f1": 0.6394125383603683,
+        "roc_auc": 0.8412253006588339,
+        "average_precision": 0.752365670366683,
+        "positive_support": 5221,
+        "brier_score": 0.14445680218295764,
+        "confusion_matrix": [
+          [
+            9793,
+            986
+          ],
+          [
+            2304,
+            2917
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.812360053739364,
+        "recall": 0.7009273570324575,
+        "f1": 0.7525409666044389,
+        "roc_auc": 0.9064391654700585,
+        "average_precision": 0.8489220088832244,
+        "positive_support": 5176,
+        "brier_score": 0.10894328862014573,
+        "confusion_matrix": [
+          [
+            9986,
+            838
+          ],
+          [
+            1548,
+            3628
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7620915032679738,
+        "recall": 0.5844611528822055,
+        "f1": 0.6615602836879433,
+        "roc_auc": 0.8791188107654648,
+        "average_precision": 0.7545321352606014,
+        "positive_support": 3990,
+        "brier_score": 0.11021338475402595,
+        "confusion_matrix": [
+          [
+            11282,
+            728
+          ],
+          [
+            1658,
+            2332
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.73450376209244,
+        "recall": 0.6202723146747352,
+        "f1": 0.6725721784776902,
+        "roc_auc": 0.8523597923825538,
+        "average_precision": 0.706240556340108,
+        "positive_support": 3305,
+        "brier_score": 0.09965438330105507,
+        "confusion_matrix": [
+          [
+            11954,
+            741
+          ],
+          [
+            1255,
+            2050
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7580174927113703,
+        "recall": 0.6206731916925281,
+        "f1": 0.6825042656516603,
+        "roc_auc": 0.8908094220262602,
+        "average_precision": 0.7796794336648947,
+        "positive_support": 4189,
+        "brier_score": 0.10869371589457853,
+        "confusion_matrix": [
+          [
+            10981,
+            830
+          ],
+          [
+            1589,
+            2600
+          ]
+        ]
+      }
+    },
+    "test": {
+      "CAD": {
+        "precision": 0.7317327766179541,
+        "recall": 0.5429899302865996,
+        "f1": 0.6233881725211204,
+        "roc_auc": 0.8277908020400769,
+        "average_precision": 0.7247172382776227,
+        "positive_support": 1291,
+        "brier_score": 0.14917726962546585,
+        "confusion_matrix": [
+          [
+            2452,
+            257
+          ],
+          [
+            590,
+            701
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.8147448015122873,
+        "recall": 0.6713395638629284,
+        "f1": 0.7361229718189581,
+        "roc_auc": 0.900037248978019,
+        "average_precision": 0.836158172971635,
+        "positive_support": 1284,
+        "brier_score": 0.11255142409396073,
+        "confusion_matrix": [
+          [
+            2520,
+            196
+          ],
+          [
+            422,
+            862
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.7465564738292011,
+        "recall": 0.5753715498938429,
+        "f1": 0.6498800959232613,
+        "roc_auc": 0.8726885312826751,
+        "average_precision": 0.7337270144176109,
+        "positive_support": 942,
+        "brier_score": 0.1086329838407863,
+        "confusion_matrix": [
+          [
+            2874,
+            184
+          ],
+          [
+            400,
+            542
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.7343065693430657,
+        "recall": 0.607487922705314,
+        "f1": 0.6649041639127561,
+        "roc_auc": 0.8068101169045574,
+        "average_precision": 0.6214695501121386,
+        "positive_support": 828,
+        "brier_score": 0.10596418271446219,
+        "confusion_matrix": [
+          [
+            2990,
+            182
+          ],
+          [
+            325,
+            503
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.7318573185731857,
+        "recall": 0.5926294820717132,
+        "f1": 0.654925701706109,
+        "roc_auc": 0.8742006273969543,
+        "average_precision": 0.7370698647913925,
+        "positive_support": 1004,
+        "brier_score": 0.11332033543245441,
+        "confusion_matrix": [
+          [
+            2778,
+            218
+          ],
+          [
+            409,
+            595
+          ]
+        ]
+      }
+    }
+  },
+  "Training-prevalence baseline": {
+    "test": {
+      "CAD": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.32275,
+        "positive_support": 1291,
+        "brier_score": 0.21859512890624996,
+        "confusion_matrix": [
+          [
+            2709,
+            0
+          ],
+          [
+            1291,
+            0
+          ]
+        ]
+      },
+      "Hypertensive_Heart_Disease": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.321,
+        "positive_support": 1284,
+        "brier_score": 0.21796524999999997,
+        "confusion_matrix": [
+          [
+            2716,
+            0
+          ],
+          [
+            1284,
+            0
+          ]
+        ]
+      },
+      "Heart_Failure": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.2355,
+        "positive_support": 942,
+        "brier_score": 0.18023226562500003,
+        "confusion_matrix": [
+          [
+            3058,
+            0
+          ],
+          [
+            942,
+            0
+          ]
+        ]
+      },
+      "Arrhythmia": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.207,
+        "positive_support": 828,
+        "brier_score": 0.16415119140625006,
+        "confusion_matrix": [
+          [
+            3172,
+            0
+          ],
+          [
+            828,
+            0
+          ]
+        ]
+      },
+      "Cardiomyopathy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.251,
+        "positive_support": 1004,
+        "brier_score": 0.18811591015625004,
+        "confusion_matrix": [
+          [
+            2996,
+            0
+          ],
+          [
+            1004,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

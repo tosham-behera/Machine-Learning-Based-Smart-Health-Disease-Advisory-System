@@ -1,0 +1,224 @@
+{
+  "schema_version": "synthetic-multilabel-v2",
+  "generator_version": "2.0.0",
+  "generator_file": "generate_data.py",
+  "seed": 42,
+  "rows": 20000,
+  "source": "Entirely generated locally; no real patient records or Kaggle source.",
+  "label_process": "Five Bernoulli draws from arbitrary logistic equations in generate_dataset; features generated first.",
+  "limitations": "Fictional labels, distributions and prevalence. No diagnosis, clinical validity, prognosis or calibrated personal risk.",
+  "target_columns": [
+    "CAD",
+    "Hypertensive_Heart_Disease",
+    "Heart_Failure",
+    "Arrhythmia",
+    "Cardiomyopathy"
+  ],
+  "input_schema": {
+    "Age": {
+      "kind": "numeric",
+      "label": "Age (years)",
+      "min": 18,
+      "max": 90,
+      "default": 45.0,
+      "step": 1
+    },
+    "Weight": {
+      "kind": "numeric",
+      "label": "Weight (kg)",
+      "min": 40,
+      "max": 180,
+      "default": 70.0,
+      "step": 1
+    },
+    "Height": {
+      "kind": "numeric",
+      "label": "Height (cm)",
+      "min": 140,
+      "max": 205,
+      "default": 170.0,
+      "step": 1
+    },
+    "Systolic_BP": {
+      "kind": "numeric",
+      "label": "Systolic BP (mmHg)",
+      "min": 90,
+      "max": 179,
+      "default": 115.0,
+      "step": 1
+    },
+    "Diastolic_BP": {
+      "kind": "numeric",
+      "label": "Diastolic BP (mmHg)",
+      "min": 50,
+      "max": 119,
+      "default": 75.0,
+      "step": 1
+    },
+    "Heart_Rate": {
+      "kind": "numeric",
+      "label": "Heart Rate (beats/min)",
+      "min": 45,
+      "max": 140,
+      "default": 75.0,
+      "step": 1
+    },
+    "Blood_Sugar_Fasting": {
+      "kind": "numeric",
+      "label": "Blood Sugar Fasting (mg/dL)",
+      "min": 65,
+      "max": 250,
+      "default": 90.0,
+      "step": 1
+    },
+    "Cholesterol_Total": {
+      "kind": "numeric",
+      "label": "Cholesterol Total (mg/dL)",
+      "min": 100,
+      "max": 350,
+      "default": 180.0,
+      "step": 1
+    },
+    "Exercise_ST_Depression": {
+      "kind": "numeric",
+      "label": "Exercise ST Depression (mm)",
+      "min": 0,
+      "max": 5,
+      "default": 0.0,
+      "step": 0.1
+    },
+    "Ejection_Fraction": {
+      "kind": "numeric",
+      "label": "Ejection Fraction (%)",
+      "min": 20,
+      "max": 75,
+      "default": 60.0,
+      "step": 1
+    },
+    "LV_Wall_Thickness": {
+      "kind": "numeric",
+      "label": "LV Wall Thickness (mm)",
+      "min": 6,
+      "max": 20,
+      "default": 9.0,
+      "step": 0.1
+    },
+    "Hypertension": {
+      "kind": "binary",
+      "label": "Hypertension",
+      "default": 0
+    },
+    "Diabetes": {
+      "kind": "binary",
+      "label": "Diabetes",
+      "default": 0
+    },
+    "Hyperlipidemia": {
+      "kind": "binary",
+      "label": "Hyperlipidemia",
+      "default": 0
+    },
+    "Family_History": {
+      "kind": "binary",
+      "label": "Family History",
+      "default": 0
+    },
+    "Previous_Heart_Attack": {
+      "kind": "binary",
+      "label": "Previous Heart Attack",
+      "default": 0
+    },
+    "Exertional_Chest_Pain": {
+      "kind": "binary",
+      "label": "Exertional Chest Pain",
+      "default": 0
+    },
+    "Gender": {
+      "kind": "categorical",
+      "label": "Gender",
+      "categories": [
+        "Female",
+        "Male",
+        "Unknown"
+      ],
+      "default": "Female"
+    },
+    "Smoking": {
+      "kind": "categorical",
+      "label": "Smoking",
+      "categories": [
+        "Never",
+        "Former",
+        "Current",
+        "Unknown"
+      ],
+      "default": "Never"
+    },
+    "Alcohol_Intake": {
+      "kind": "categorical",
+      "label": "Alcohol Intake",
+      "categories": [
+        "None",
+        "Low",
+        "Moderate",
+        "High",
+        "Unknown"
+      ],
+      "default": "None"
+    },
+    "Physical_Activity": {
+      "kind": "categorical",
+      "label": "Physical Activity",
+      "categories": [
+        "Active",
+        "Moderate",
+        "Sedentary",
+        "Unknown"
+      ],
+      "default": "Active"
+    },
+    "Diet": {
+      "kind": "categorical",
+      "label": "Diet",
+      "categories": [
+        "Healthy",
+        "Average",
+        "Unhealthy",
+        "Unknown"
+      ],
+      "default": "Healthy"
+    },
+    "Stress_Level": {
+      "kind": "categorical",
+      "label": "Stress Level",
+      "categories": [
+        "Low",
+        "Medium",
+        "High",
+        "Unknown"
+      ],
+      "default": "Low"
+    },
+    "ECG_Rhythm": {
+      "kind": "categorical",
+      "label": "ECG Rhythm",
+      "categories": [
+        "Regular",
+        "Irregular",
+        "Unknown"
+      ],
+      "default": "Unknown"
+    }
+  },
+  "positive_counts": {
+    "CAD": 6512,
+    "Hypertensive_Heart_Disease": 6460,
+    "Heart_Failure": 4932,
+    "Arrhythmia": 4133,
+    "Cardiomyopathy": 5193
+  },
+  "multiple_label_rows": 7967,
+  "no_label_rows": 5187,
+  "data_sha256": "d5c9883e22513c424e25358f63e132737df0aa5463619511643fea945ce75efb",
+  "generator_sha256": "d36f060014afe806b5ad1ef7ab4cb4af5fdcdf5e9bf381088aec5428d75c95d1"
+}

@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "example_A_no_labels": true,
+    "example_B_multiple_labels": true,
+    "invalid_age": true,
+    "contradictory_BP": true,
+    "nonfinite": true,
+    "unknown_clinical_warning": true,
+    "reproducible_generator": true
+  },
+  "all_passed": true,
+  "mean_single_prediction_ms": 10.677844999997887,
+  "model_bytes": 4650,
+  "experiment": "Three newly generated 5000-row datasets; 80/20 split; fixed Logistic Regression, no tuning; same generator family, not external clinical validation."
+}

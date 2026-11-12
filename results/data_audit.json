@@ -1,0 +1,99 @@
+{
+  "source_file": "synthetic_heart_conditions.csv",
+  "source_sha256": "d5c9883e22513c424e25358f63e132737df0aa5463619511643fea945ce75efb",
+  "rows": 20000,
+  "features": 24,
+  "targets": [
+    "CAD",
+    "Hypertensive_Heart_Disease",
+    "Heart_Failure",
+    "Arrhythmia",
+    "Cardiomyopathy"
+  ],
+  "missing_counts": {
+    "Age": 0,
+    "Weight": 0,
+    "Height": 0,
+    "Systolic_BP": 0,
+    "Diastolic_BP": 0,
+    "Heart_Rate": 0,
+    "Blood_Sugar_Fasting": 0,
+    "Cholesterol_Total": 0,
+    "Exercise_ST_Depression": 0,
+    "Ejection_Fraction": 0,
+    "LV_Wall_Thickness": 0,
+    "Hypertension": 0,
+    "Diabetes": 0,
+    "Hyperlipidemia": 0,
+    "Family_History": 0,
+    "Previous_Heart_Attack": 0,
+    "Exertional_Chest_Pain": 0,
+    "Gender": 0,
+    "Smoking": 0,
+    "Alcohol_Intake": 0,
+    "Physical_Activity": 0,
+    "Diet": 0,
+    "Stress_Level": 0,
+    "ECG_Rhythm": 0,
+    "CAD": 0,
+    "Hypertensive_Heart_Disease": 0,
+    "Heart_Failure": 0,
+    "Arrhythmia": 0,
+    "Cardiomyopathy": 0
+  },
+  "duplicate_feature_rows": 0,
+  "invalid_bp_pairs": 0,
+  "positive_counts": {
+    "CAD": 6512,
+    "Hypertensive_Heart_Disease": 6460,
+    "Heart_Failure": 4932,
+    "Arrhythmia": 4133,
+    "Cardiomyopathy": 5193
+  },
+  "label_count_distribution": {
+    "0": 5187,
+    "1": 6846,
+    "2": 4620,
+    "3": 2381,
+    "4": 829,
+    "5": 137
+  },
+  "cooccurrence_counts": {
+    "CAD": {
+      "CAD": 6512,
+      "Hypertensive_Heart_Disease": 2266,
+      "Heart_Failure": 1642,
+      "Arrhythmia": 1343,
+      "Cardiomyopathy": 1716
+    },
+    "Hypertensive_Heart_Disease": {
+      "CAD": 2266,
+      "Hypertensive_Heart_Disease": 6460,
+      "Heart_Failure": 2117,
+      "Arrhythmia": 1388,
+      "Cardiomyopathy": 2443
+    },
+    "Heart_Failure": {
+      "CAD": 1642,
+      "Hypertensive_Heart_Disease": 2117,
+      "Heart_Failure": 4932,
+      "Arrhythmia": 1219,
+      "Cardiomyopathy": 2679
+    },
+    "Arrhythmia": {
+      "CAD": 1343,
+      "Hypertensive_Heart_Disease": 1388,
+      "Heart_Failure": 1219,
+      "Arrhythmia": 4133,
+      "Cardiomyopathy": 1294
+    },
+    "Cardiomyopathy": {
+      "CAD": 1716,
+      "Hypertensive_Heart_Disease": 2443,
+      "Heart_Failure": 2679,
+      "Arrhythmia": 1294,
+      "Cardiomyopathy": 5193
+    }
+  },
+  "provenance": "Locally generated fictional data; see generate_data.py and the dataset JSON card."
+}
